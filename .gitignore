@@ -1,0 +1,28 @@
+﻿# Flutter/Dart
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/.gradle/
+android/app/build/
+
+# VS Code
+.vscode/
+
+# Keystore / build artifacts / logs
+*.jks
+*.keystore
+*.apk
+*.aab
+*.log
