@@ -1,16 +1,22 @@
-# bookly
+# 📚 Bookify
 
-A new Flutter project.
+Bookify is a Flutter application designed for book lovers.  
+It allows users to **search for books** and open them directly as **PDFs** with just one click.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- 🔎 Search for your favorite books.  
+- 📖 Open books instantly in PDF format.  
+- 📱 Simple and user-friendly Flutter interface.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Framework:** Flutter  
+- **Language:** Dart  
+- **PDF Support:** Flutter PDF Viewer  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📂 Project Structure
