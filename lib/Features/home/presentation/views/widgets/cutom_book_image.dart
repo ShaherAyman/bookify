@@ -9,20 +9,24 @@ class CustomBookImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return GestureDetector(
-      onTap: onTap ,
-      child: ClipRRect(
-        borderRadius: BorderRadiusGeometry.circular(16),
-        child: AspectRatio(
-          aspectRatio: 2.6 / 4, //    width/hiegh
-          child: CachedNetworkImage(
-      
-            fit: BoxFit.fill ,
-            imageUrl: imageUrl,
-            errorWidget: (context ,url, error) => Icon(Icons.wrong_location_sharp),
-      
+      //2.6 / 4,
+      onTap: onTap,
+      child: Material(
+        elevation: 10, // قوة الظل (جرب 4 - 6 - 8)
+        borderRadius: BorderRadius.circular(16),
+        shadowColor: Colors.black.withOpacity(0.3), // لون الظل
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(16),
+          child: AspectRatio(
+            aspectRatio:  1.3 / 1.9, // width/height
+            child: CachedNetworkImage(
+              fit: BoxFit.fill,
+              imageUrl: imageUrl,
+              errorWidget: (context, url, error) =>
+                  const Icon(Icons.wrong_location_sharp),
             ),
+          ),
         ),
       ),
     );

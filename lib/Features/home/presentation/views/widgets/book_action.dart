@@ -15,7 +15,7 @@ class BookAction extends StatelessWidget {
           child: CustomButton(
             text: 'Free',
             backgroundColor: Colors.white,
-            textColor: Colors.black,
+            textColor:  Color.fromARGB(255, 102, 72, 61),
             borderRaduis: BorderRadius.only(
               topLeft: Radius.circular(12),
               bottomLeft: Radius.circular(12),
@@ -31,7 +31,7 @@ class BookAction extends StatelessWidget {
 
             },
             text: getText(bookModel),
-            backgroundColor: Colors.deepOrangeAccent,
+            backgroundColor: const Color.fromARGB(255, 102, 72, 61),
             textColor: Colors.white,
             borderRaduis: BorderRadius.only(
               topRight: Radius.circular(12),

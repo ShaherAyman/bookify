@@ -1,4 +1,4 @@
 class AssetsData {
-  static const logo = 'assets/logoo.png';
+  static const logo = 'assets/final_logo.png';
   static const testImage = 'assets/test_image.png';
 }
